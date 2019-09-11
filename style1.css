@@ -1,0 +1,342 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.flex-container .div1 {
+    width: 100%;
+    height: 55%;
+}
+.hamburger {
+    display: none;
+}
+.flex-container .div1 {
+    background-color: #4287f5;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.flex-container .div1 > div{
+    width: 100%;
+    height: 20%;
+}
+
+.flex-container .div1 .nav {
+    position: relative;
+}
+.flex-container .div1 .nav .wrapper {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75em;
+    font-weight: bold;
+    height:100%;
+}
+
+.flex-container .div1 .nav .wrapper .hire {
+    position: absolute;
+    bottom: 74%;
+    /* background-color:#003180; */
+    background-color: #1555bd;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.flex-container .div1 .nav .wrapper .hire:hover {
+
+    background-color: #003180;
+}
+
+.flex-container .div1 .nav .wrapper a:nth-last-child(n+2){
+    float: left;
+    position: relative;
+    text-decoration: none;
+    padding: 0px 0px;
+    padding-bottom: 3px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+
+.flex-container .div1 .nav .wrapper a:nth-last-child(n+2):before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #0a1526;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+.flex-container .div1 .nav .wrapper a:nth-last-child(n+2):hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.flex-container .div1 .nav .wrapper a:nth-child(2):before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scaleX(1);
+    visibility: visible;
+}
+
+
+
+.flex-container .div1 .nav  .logo {
+    position: relative;
+    top:17%;
+    left: 7.1%;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.flex-container .div1 .nav  .logo:hover {
+    border-color: #1c568a;
+}
+
+.flex-container .div1 .nav .logo .rect1 {
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    height: 20px;
+    width: 8px;
+    background-color: #fff;
+}
+.flex-container .div1 .nav  .logo .rect2 {
+    position: absolute;
+    left: 8px;
+    top: 14px;
+    height: 15px;
+    width: 8px;
+    background-color: #fff;
+}
+
+.flex-container .div1 .nav .logo:after {
+    position: absolute;
+    content:"IAN LUNN";
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    color: #fff;
+    position: absolute;
+    left: 48px;
+    bottom: 12px;
+}
+
+.flex-container .div1 .nav .logo:before {
+    content: "Front-end Developer";
+    position: absolute;
+    font-size: 0.86em;
+    color: #fff;
+    width: 150px;
+    top: 23px;
+    left: 48px;
+}
+
+.flex-container .div1 .text {
+    height: 58%;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    position: relative;
+    top: 16%;
+}
+.flex-container .div1 .text::after {
+    content: "Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience";
+    position: absolute;
+    /* font-weight: bold */
+    font-size: 0.45em;
+    top:20%;
+    left: 30%;
+    width: 40%;
+}
+
+.flex-container .div1 .view {
+    position: relative;
+    top: 0%;
+    left: 40%;
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    height:5%;
+    transition: color 0.3s ease-in-out;
+}
+
+.flex-container .div1 .view:after {
+    content:" ";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: solid white;
+    border-width: 2px 0 0 2px;
+    transform: rotate(-135deg);
+    top: 70%;
+    left: 49.8%;
+    transition: border-color 0.3s ease-in-out;
+}
+.flex-container .div1 .view:hover, .flex-container .div1 .view:hover:after {
+    color: #1c568a;
+}
+.flex-container .div1 .view:hover:after {
+    border-color: #1c568a;   
+}
+ 
+ @media screen and (max-width: 1024px) {
+  .flex-container {
+      width: 100%;
+      box-sizing: border-box;
+  }
+  
+  .flex-container .div1 .nav .wrapper {
+     font-size: 10px;
+      width: 60%;
+      position: relative;
+      left: 30%;
+      position: absolute;
+      right: 10%;
+  }
+  .flex-container .div1 .nav .wrapper .hire {
+      position: relative;
+      box-sizing: border-box;
+      display: block;
+      line-height: 0px;
+      width: 73px;
+      height: 30px;   
+      bottom: 10px;;
+      left: 80%;
+       padding: 2px;
+        padding-bottom: 10px;
+       text-decoration: none;
+        font-size: 9px;
+  }
+  
+  .flex-container .div1  .text{
+     font-size: 30px;
+  }
+  .flex-container .div1 .view {
+      font-size: 10px;
+  }
+  .flex-container .div1 .view::after {
+    border-width: 1px 0 0 1px;
+  }
+} 
+.flex-container .div1 .container, .flex-container .div1 .full-width-links {
+    display: none;
+}
+ @media screen and (max-width: 730px) {
+   
+    .div1 .nav .wrapper {
+        display: none;
+    }
+    .flex-container .div1 .container {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 35px;
+        left: 90%;
+        top: 11%;
+        cursor:pointer;
+        z-index: 2;
+    }
+    .flex-container .div1 .container .hamburger-line {
+        position: relative;
+        top: 20%;
+        left: 18%;
+        min-height: 1px;
+        width: 35px;
+        height: 5px;
+        position: relative;
+        border-top: 4px solid #fff;
+        border-bottom: 4px solid #fff;
+        cursor:pointer;
+        transition: border-color .3s;
+    }
+    .flex-container .div1 .container .hamburger-line::after{ 
+        content: " ";
+        position: absolute;
+        top: 15px;
+        width: 35px;
+        height: 10px;
+        border-top: 4px solid #fff;
+        cursor: pointer;
+        transition: border-color .3s;
+
+    }
+    .flex-container .div1 .container:hover .hamburger-line, .flex-container .div1 .container:hover .hamburger-line::after {
+        border-color: #003180;
+    }
+    .flex-container .div1 {
+        position: relative;
+    }
+    .flex-container .div1 .full-width-links {
+        position: absolute;
+        top: 25%;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #ccc;
+        transition: all .3s;
+        display: none;
+    }
+    .flex-container .div1 .full-width-links a {
+        width: 100%;
+        box-sizing: border-box;
+        color: #ccc;
+        height: 32%;
+        text-align: center;
+        display: block;
+        border: 0.09px solid rgb(59, 59, 59);
+        background-color: #302d2d;
+        padding-top: 8px;
+        cursor:pointer;
+    }
+    .flex-container .div1 .full-width-links a:hover {
+        color: #fff;
+    }
+    .flex-container .div1 .text {
+        /* top: 32%; */
+        top: 8%;
+    }
+
+
+ } 
+ @media screen and (max-width:570px){
+   
+    .div1 .view {
+        margin-bottom: 5px;
+    }
+    .div1 .view:after {
+        margin-top: 10px;
+    }
+    .flex-container .div1 {
+        height: 60%;
+    }
+    .flex-container .div1 .container {
+        display:block;
+        position: relative;
+        left: 87%;
+    }
+ }
+
+

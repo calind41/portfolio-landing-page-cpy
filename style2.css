@@ -1,0 +1,190 @@
+.flex-container .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+.flex-container .flex-container div {
+    width: 33.333%;
+    height: 33.333%;
+
+}
+.flex-container .flex-container .div2 {
+    background-color: #291444;
+    background-image: url(lsu-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: background-size 2s ease-in-out;
+    position: relative;
+}
+
+.flex-container .flex-container .div2:hover {
+    background-size: 30%;
+}
+
+
+/* 2nd box */
+.flex-container .flex-container .div3 {
+    background-color:#fff;
+    position: relative;
+    cursor:pointer;
+    background-image: url(pet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.3s;
+}
+.flex-container .flex-container .div3:hover {
+    background-size: 40%;
+}
+
+
+
+/* 3rd box */
+
+.flex-container .flex-container .div4 {
+    background-color: #33363B;
+    position: relative;
+    cursor:pointer;
+    transition: all .3s;
+    background-image: url(css3foundations.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.flex-container .flex-container .div4:hover {
+    background-size: 40%;
+}
+
+.flex-container .flex-container .div4 .caption,.flex-container .flex-container .div3 .caption,
+.flex-container .flex-container .div2 .caption ,.flex-container .flex-container .div5 .caption,
+.flex-container .flex-container .div6 .caption,.flex-container .flex-container .div7 .caption,
+.flex-container .flex-container .div8 .caption, .flex-container .flex-container .div9 .caption,
+.flex-container .flex-container .div10 .caption{
+   
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: transparent;
+    box-sizing: border-box;
+    padding-left: 15px;
+    /* padding-top: 10px; */
+    
+    height: 0;
+    bottom: 0;
+    visibility: hidden;
+    transition: color .0s,height .3s, visibility .3s;
+    overflow: hidden;
+    cursor:auto;
+}
+.flex-container .flex-container .div4:hover .caption,.flex-container .flex-container .div3:hover .caption,
+.flex-container .flex-container .div2:hover .caption,.flex-container .flex-container .div5:hover .caption ,
+.flex-container .flex-container .div6:hover .caption, .flex-container .flex-container .div7:hover .caption,
+.flex-container .flex-container .div8:hover .caption, .flex-container .flex-container .div9:hover .caption,
+.flex-container .flex-container .div10:hover .caption
+{
+    height: 20%;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    visibility: visible;
+    transition: color .3s, height .3s, visibility .3s;
+}
+
+/* 4th box */
+
+.flex-container .flex-container .div5 {
+    position: relative;
+    cursor:pointer;
+    background-color: #fff;
+    background-image: url(sequence.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s;
+
+}
+
+.flex-container .flex-container .div5:hover {
+    background-size: 40%;
+}
+
+/* 5th box */
+.flex-container .flex-container .div6 {
+    position: relative;
+    background-color: #444;
+    background-image: url(hover.css.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:pointer;
+}
+.flex-container .flex-container .div6:hover {
+    background-size: 40%;
+}
+
+/* 6th box */
+.flex-container .flex-container .div7 {
+    position: relative;
+    background-color: #fff;
+    background-image: url(svcf-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.flex-container .flex-container .div7:hover {
+    background-size: 50%;
+}
+
+.flex-container .flex-container .div8 {
+    position: relative;
+    background-color: #000;
+    background-image: url(tigi-hairreborn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.flex-container .flex-container .div8:hover {
+    background-size: 40%;
+}
+
+.flex-container .flex-container .div9 {
+    position: relative;
+    background-color:#fff;
+    background-image: url(eli.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.flex-container .flex-container .div9:hover {
+    background-size: 50%;
+}
+
+.flex-container .flex-container .div10 {
+    position: relative;
+    background-color: #000;
+    background-image:url(socialaxis.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.flex-container .flex-container .div10:hover {
+    background-size: 50%;
+}
+
+@media screen and (max-width: 730px) {
+
+    .flex-container .flex-container div {
+        width: 50%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .flex-container .flex-container {
+        height: 250%;
+    }
+    .flex-container .flex-container div {
+        width: 100%;
+        height: 11%;
+    }
+}

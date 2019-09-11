@@ -1,0 +1,131 @@
+.flex-container .div12 {
+    position: relative;
+    background-color: #f9f9f9;
+    height: 85%;
+}
+.flex-container .div12 h1 {
+    text-align: center;
+}
+.flex-container .div12 .testimonial1 {
+    position: relative;
+    top: 0%;
+    left: 23%;
+    width: 37%;
+    height: 14%;
+    background-color: #fff;
+    padding: 60px;
+
+    color: rgb(87, 87, 87);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.flex-container .div12 .testimonial1 cite,.flex-container .div12 .testimonial2 cite {
+    position: absolute;
+    left: 58%;
+    top: 80%;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+}
+.flex-container .div12 .testimonial1 cite a,.flex-container .div12 .testimonial2 cite a {
+    color: #045F8C;
+    cursor:pointer;
+    transition: color .3s;
+}
+.flex-container .div12 .testimonial1 cite a:hover,.flex-container .div12 .testimonial2 cite a:hover {
+    color: #1792CE;
+}
+
+
+.flex-container .div12 .testimonial2 {
+    position: relative;
+    top: 1%;
+    left: 23%;
+    width: 37%;
+    height: 14%;
+    background-color: #fff;
+    padding: 60px;
+
+    color: rgb(87, 87, 87);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.flex-container .div12 .testimonial3 {
+    position: relative;
+    top: 2%;
+    left: 23%;
+    width: 37%;
+    height: 8%;
+    background-color: #fff;
+    padding: 60px;
+
+    color: rgb(87, 87, 87);
+    font-size: 0.8em;
+    font-weight: bold; 
+}
+.flex-container .div12 .testimonial3 cite {
+    position: absolute;
+    top: 68%;
+    left: 23%;
+    width: 68%;
+    color: #000;
+    font-weight: bold;
+    font-style: normal;
+}
+.flex-container .div12 .testimonial3 cite a {
+    color: #045F8C;
+    cursor:pointer;
+    transition: color .3s;
+}
+.flex-container .div12 .testimonial3 cite a:hover {
+    color: #1792CE;
+}
+
+@media screen and (max-width: 883px){
+     .flex-container .div12 {
+        height: 100%;
+    }
+    .flex-container .div12 h1 {
+        font-size:2.5em;
+    }
+    .flex-container .div12 .testimonial1, 
+    .flex-container .div12 .testimonial2, 
+    .flex-container .div12  .testimonial3 {
+        left:7.7%;
+        width: 60%;
+        height: 14%;
+    }
+    .flex-container .div12 .testimonial3 cite {
+        left: 41%;
+    }
+    .flex-container .div12 .testimonial2 cite {
+        left: 65%;
+    } 
+
+}
+
+@media screen and (max-width: 629px){
+    .flex-container .div12 h1 {
+        font-size:2.5em;
+    }
+  
+    .flex-container .div12 .testimonial1, 
+    .flex-container .div12 .testimonial2, 
+    .flex-container .div12  .testimonial3 {
+        left:7.7%;
+        width: 50%;
+        height: 14%;
+    }
+    .flex-container .div12 .testimonial3 cite {
+        top:60%;
+    }
+    .flex-container .div12 .testimonial1 cite {
+        top: 95%;
+    }
+    .flex-container .div12 .testimonial2 cite {
+        top: 90%;
+    }
+   
+}

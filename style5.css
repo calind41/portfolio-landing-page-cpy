@@ -1,0 +1,453 @@
+.flex-container .div13 {
+    position: relative;
+    height:80%;
+    /* background-color: #ccc; */
+    background-color: #302d2d;
+}
+
+.flex-container .div13 .about {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 5.5%;
+    background-color:#1792CE;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    transition: color .3s;
+    cursor:pointer;
+}
+
+.flex-container .div13 .about::before {
+    content: " ";
+    position: absolute;
+    left: 55%;
+    top: 32%;
+    width: 1.3%;
+    height: 30%;
+    border-radius: 50%;
+    background-color:#fff;
+}
+.flex-container .div13 .about::after {
+    content: " ";
+    position: absolute;
+    left: 55.2%;
+    top:39%;
+    width: 0.43%;
+    height: 10%;
+    border: solid #1792CE;
+    border-width: 3px 0 0 3px;
+    transform: rotate(135deg);
+}
+.flex-container .div13 .about:hover {
+    background-color:#045F8C;
+}
+.flex-container .div13 .about:hover::after {
+    border-color: #045F8C;
+}
+
+/* footer */
+.flex-container .div13 .box1 {
+    color: #ccc;
+    font-size: 0.85em;
+    position: absolute;
+    top: 15.3%;
+    left: 6.2%;
+    width: 27.5%;
+}
+.flex-container .div13 .box1 img {
+    margin-right: 15px;
+    width: 20%;
+    height: 20%;
+    float: left;
+    border: 3px solid #000;
+}
+
+.flex-container .div13 .box1 .css3_f {
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color .3s;
+}
+.flex-container .div13 .box1 .css3_f:hover {
+    color:#045F8C;
+}
+
+.flex-container .div13 .box1 p {
+    font-size: 0.85em;
+}
+.flex-container .div13 .box1 p .hire_now {
+    /* display: inline-block; */
+    position: absolute;
+    right: 44.1%;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.flex-container .div13 .box1 p .hire_now:before {
+    content: ">>";
+    position: relative;
+    left: 105%;
+    font-size: 0.8em;
+}
+.flex-container .div13 .box1 p .hire_now:hover {
+    color: #045F8C;
+}
+
+/* box2  */
+
+.flex-container .div13 .box2 {
+    width: 23%;
+    height: 40%;
+    position: relative;
+    left: 38%;
+    top: 9.3%;
+    color: #ccc;
+    font-size:.8em;
+    line-height: 2em;
+}
+.flex-container .div13 .box2 .wrapper-twiter {
+    position: relative;
+    top: 0%;
+    height: 30%;
+}
+.flex-container .div13 .box2 .wrapper-github {
+    position: relative;
+    bottom: 7%;
+    height: 30%;
+}
+.flex-container .div13 .box2 .wrapper-linkedin {
+    position: relative;
+    bottom: 17%;
+    height: 30%;
+}
+.flex-container .div13 .box2 .wrapper-twiter .twiter {
+    position: absolute;
+    bottom: 70%;
+    
+}
+.flex-container .div13 .box2 .wrapper-twiter .twiter-p {
+    position: absolute;
+    left: 11%;
+    bottom: 22%;
+   line-height: 1.65em;
+    
+}
+.flex-container .div13 .box2 .wrapper-github .github {
+    position: absolute;
+}
+.flex-container .div13 .box2 .wrapper-github .github-p {
+    position: absolute;
+    left: 11%;
+    bottom:29%;
+    line-height: 1.65em;
+
+}
+.flex-container .div13  .box2 .wrapper-linkedin .linkedin{
+    position: absolute;
+}
+.flex-container .div13 .box2 .wrapper-linkedin .linkedin-p {
+    position: absolute;
+    left: 11%;
+    bottom: 62%;
+}
+.flex-container .div13 .box2 .twiter i , .flex-container .div13 .box2 .github i,
+.flex-container .div13 .box2 .linkedin i{
+    font-size: 1.8em;
+    color: #fff;
+    float: left;
+    margin-right: 5px;
+    transition: color .3s;
+}
+.flex-container .div13 .box2 .twiter i:hover,.flex-container .div13 .box2 .github i:hover ,
+.flex-container .div13 .box2 .linkedin i:hover{
+    color : #045F8C;
+}
+.flex-container .div13 .box2 .twiter-p .link1, .flex-container .div13 .box2 .github-p .link1,
+.flex-container .div13 .box2 .github-p .link2, .flex-container .div13 .box2 .github-p .link3 ,
+.flex-container .div13 .box2 .linkedin-p .link1{
+    color: white;
+    font-weight: bold;
+    font-size: .9em;
+    cursor: pointer;
+    transition: color .3s;
+}
+.flex-container .div13 .box2 .twiter-p .link1:hover,.flex-container .div13 .box2 .github-p .link1:hover ,
+.flex-container .div13 .box2 .github-p .link2:hover , .flex-container .div13 .box2 .github-p .link3:hover ,
+.flex-container .div13 .box2 .linkedin-p .link1:hover{
+    color: #045F8C;
+}
+
+/* box3 */
+
+.flex-container .div13 .box3 {
+    position: relative;
+    width: 25%;
+    font-size:.85em;
+    left: 67.5%;
+    bottom: 30%;
+}
+
+.flex-container .div13 .box3 > a {
+    color: #fff;
+    font-weight: bold;
+    cursor:pointer;
+    transition: color .3s;
+    display: block;
+    margin-bottom:21px;
+
+}
+.flex-container .div13 .box3 .store i {
+    color: #ccc;
+    cursor: auto;
+}
+.flex-container .div13 .box3 > a:hover {
+    color: #045F8C;
+}
+.flex-container .div13 .box3 a p {
+    color: #ccc;
+    font-size: 0.8em;
+    margin-top: 5px;
+    cursor: auto;
+}
+
+@media screen and (max-width: 1124px){
+    
+    .flex-container .div13 .box1 p .hire_now {
+        right: 40%;
+    }
+}
+@media screen and (max-width: 1078px){
+    .flex-container .div13 .box1 p .hire_now {
+        right: 35%;
+    }
+    .flex-container .div13 .box2 .wrapper-twiter {
+        position: relative;
+        top: 0%;
+        height: 30%;
+        width: 120%;
+    }
+    .flex-container .div13 .box2 .wrapper-twiter .twiter-p{
+        bottom: 40%;
+    }
+    .flex-container .div13 .box2 .wrapper-github {
+        position: relative;
+        bottom: 5%;
+        height: 30%;
+    }
+    .flex-container .div13 .box2 .wrapper-github .github-p {
+        bottom: 6%;
+    }
+    .flex-container .div13 .box2 .wrapper-linkedin {
+        position: relative;
+        bottom: 12%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 1003px) {
+    
+    .flex-container .div13 .box2 .wrapper-twiter .twiter-p{
+        bottom: 20%;
+    }
+    .flex-container .div13 .box2 .wrapper-github {
+        position: relative;
+        bottom: 5%;
+        height: 30%;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .flex-container .div13 .box1 p .hire_now {
+        right: 30%;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .flex-container .div13 .box1 p .hire_now {
+        right: 25%;
+    }
+}
+@media screen and (max-width: 853px){
+    /* box3 adjustment */
+    .flex-container .div13 .box3 a p {
+        display: none;
+    }
+
+    .flex-container .div13 .box3 {
+        position: relative;
+        width: 100%;
+        font-size:.95em;
+        left: 3%;
+        bottom: 0%;
+    }
+    .flex-container .div13 .box3 a {
+        display: inline-block;
+        padding-left: 32px;
+    }
+    /* box2 adjustment */
+    .flex-container .div13 .box2 {
+        width: 35%;
+        height: 50%;
+        left: 58%;
+        font-size:.9em;
+    }
+    
+    .flex-container .div13 .box2 .wrapper-github {
+        bottom: 9%;
+    }
+    .flex-container .div13 .box2 .wrapper-linkedin {
+        bottom: 16%;
+    }
+    .flex-container .div13 .box2 .wrapper-twiter .twiter-p {
+        bottom: 44%;
+    }
+    .flex-container .div13 .box2 .wrapper-github .github-p {
+        bottom:29%;
+    }
+    .flex-container .div13 .box2 .wrapper-linkedin .linkedin-p {
+        bottom: 64%;
+    }
+
+    /* box1 adjustment */
+    .flex-container .div13 .box1 {
+        font-size: 0.9em;
+        width: 35%;
+        line-height: 24px;
+    }
+
+    .flex-container .div13 .box1 p .hire_now {
+        right: 20%;
+    }
+ 
+}
+
+@media screen and (max-width: 784px){
+   .flex-container .div13 .box3 {
+       left: -3%;
+       font-size: .9em;
+   }
+}
+
+@media screen and (max-width: 743px){
+    .flex-container .div13 .box2 .wrapper-twiter .twiter-p {
+        bottom: 24%;
+    }
+    .flex-container .div13 .box2 .wrapper-github .github-p {
+        bottom: 10%
+    }
+}
+@media screen and (max-width: 723px){
+  .flex-container .div13 .box2 .wrapper-twiter .twiter-p,
+  .flex-container .div13 .box2 .wrapper-github .github-p,
+  .flex-container .div13 .box2 .wrapper-linkedin .linkedin-p {
+      display: none;
+  }
+  
+  .flex-container .div13 .box2 .wrapper-twiter {
+    top: 60%;
+    right: 55%;
+    }
+    .flex-container .div13 .box2 .wrapper-github {
+        bottom: -33%;
+        right: 25%;
+    }
+    .flex-container .div13 .box2 .wrapper-linkedin {
+        bottom:-3.5%;
+        right: -4%;
+    }
+    .flex-container .div13 .box1 {
+        width: 90%;
+    }
+    .flex-container .div13 .box1  p .hire_now {
+        right: 55%;
+    }
+    .flex-container .div13 .box3 .store,
+    .flex-container .div13 .box3 .contact,
+    .flex-container .div13 .box3 .hire-link {
+        position: relative;
+        left: 20% !important;
+    }
+}
+
+@media screen and (max-width: 718px){
+    .flex-container .div13 .box3 .store {
+        position: relative;
+        left: 0 !important;
+    }
+    .flex-container .div13 .box3 .contact {
+        position: relative;
+        left: 0% !important;
+    }
+}
+
+@media screen and (max-width: 652px){
+   .flex-container .div13 .box3 .contact {
+       position: relative;
+       left: 10% !important;
+   }
+   .flex-container .div13 .box3 .hire-link {
+       position: relative;
+       left: 10% !important;
+   }
+   .flex-container .div13 .box3 .store {
+       position: relative;
+       left: 10% !important;
+   }
+}
+/* 574 */
+@media screen and (max-width: 650px) {
+    .flex-container .div13 .box3 .store {
+        position: relative;
+        left: 0% !important;
+    }
+}
+@media screen and (max-width: 531px){
+    .flex-container .div13 .box3 .store {
+        position: relative;
+        left: 12% !important;
+    }
+}
+
+@media screen and (max-width: 921px){
+    .flex-container .div13 .about::before {
+        left: 56%;
+    }
+    .flex-container .div13 .about::after {
+        left: 56.1%;
+    }
+}
+@media screen and (max-width: 792px){
+    .flex-container .div13 .about::before {
+        width: 1.5%;
+        height: 30%;
+        left: 57%;
+    }
+    .flex-container .div13 .about::after {
+        left: 57.2%;
+        width: 0.43%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-width: 722px){
+    .flex-container .div13 .about::before {
+        width: 2%;
+        height: 30%;
+        left: 59.4%;
+        /* border: 2px solid red; */
+    }
+    .flex-container .div13 .about::after {
+        left: 59.6%;
+        width: 0.7%;
+        height: 10%;
+    }
+}
+@media screen and (max-width: 536px){
+    .flex-container .div13 .about::before {
+        width: 2.2%;
+        /* border: 2px solid red; */
+    }
+}

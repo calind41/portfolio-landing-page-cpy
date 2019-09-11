@@ -1,0 +1,56 @@
+.flex-container .div11,.flex-container .div12, .flex-container .div13 {
+    width: 100%;
+}
+.flex-container .div11 {
+    height: 57%;
+    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    position: relative;
+}
+.flex-container .div11 h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.flex-container .div11 .small {
+    position: absolute;
+    top: 23%;
+    left: 22%;
+    line-height: 20px;
+    width:55%;
+    color: rgb(87, 87, 87);
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.flex-container .div11 .big {
+    position: absolute;
+    top: 41%;
+    left: 22%;
+    width: 55%;
+    font-size: 1.15em;
+    line-height: 41px;
+    font-weight: 500;
+
+}
+@media screen and (max-width: 883px){
+    .flex-container .div11 h1 {
+        position: relative;
+        font-size: 2.5em;
+        left: 1%;
+    }
+    .flex-container .div11 .small {
+        left: 15%;
+        top: 25%;
+        width:70%;
+        font-size: 0.8em;
+    }
+    .flex-container .div11 .big {
+        margin-top: 8%;
+        width:70%;
+        left: 15%;
+        font-size: 1.15em;
+        line-height: 31px;
+        font-weight: 500;
+    }
+}
